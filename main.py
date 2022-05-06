@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(VideoFile2)
 
 detector = ObjectDetection()
 detector.setModelTypeAsYOLOv3()
-detector.setModelPath('yolo-tiny.h5')
+detector.setModelPath('yolo-tiny.h5') # шаблон объектов для нейронки https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5
 detector.loadModel()
 
 while cap.isOpened():
