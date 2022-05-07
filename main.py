@@ -28,7 +28,7 @@ while cap.isOpened():
                                                  frames_per_second=20,
                                                  log_progress=True,
                                                  detection_timeout=120)
-                                              #  input_file_path='/images/100 (22-05-06).mp4'    *(обработка видофайла)*
+#  input_file_path='/images/100 (22-05-06).mp4' *(обработка видофайла)*
     cv2.imshow('Result', video_path)   # не работает нифига
     print(video_path)
 
@@ -36,3 +36,4 @@ while cap.isOpened():
 #    for eachObject in detections:
 #        print(eachObject["name"], eachObject["percentage_probability"], eachObject["box_points"])
 #        print("-------------------------------------")
+
